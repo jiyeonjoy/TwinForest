@@ -13,7 +13,7 @@ class _TwinForestAppState extends State<TwinForestApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: '신영우 ♥ 최지연 결혼합니다.',
+      title: '나무&열매 성장일기',
       debugShowCheckedModeBanner: false,
       enableLog: true,
       initialRoute: AppPages.initialPage,
