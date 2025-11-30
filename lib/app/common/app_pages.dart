@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:twin_forest/app/root/binding/root_page_binding.dart';
-import 'package:twin_forest/app/root/ui/root_page.dart';
+import 'package:twin_forest/app/timeline/binding/timeline_page_binding.dart';
+import 'package:twin_forest/app/timeline/ui/timeline_page.dart';
 
 part 'app_routes.dart';
 
@@ -10,9 +10,9 @@ abstract class AppPages {
   static final pages = [
     GetPage(
       name: AppRoutes.rootPage,
-      page: () => const RootPage(),
+      page: () => const TimelinePage(),
       bindings: [
-        RootPageBinding(),
+        TimelinePageBinding(),
       ],
       transition: Transition.fadeIn,
     ),
