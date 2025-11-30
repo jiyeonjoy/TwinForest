@@ -1,6 +1,6 @@
 # twin_forest
 
-A new Flutter project.
+나무&열매 성장일기
 
 ## Getting Started
 
