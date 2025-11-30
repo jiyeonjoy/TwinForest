@@ -1,6 +1,7 @@
 # twin_forest
 
 나무&열매 성장일기
+- [바로가기](https://jiyeonjoy.github.io/TwinForest/)
 
 ## Getting Started
 
