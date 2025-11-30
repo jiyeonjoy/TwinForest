@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:twin_forest/app/entry_detail/entry_detail_page.dart';
-import 'package:twin_forest/app/timeline/data/pregnancy_entry_data.dart';
+import 'package:twin_forest/app/timeline/data/models/pregnancy_entry.dart';
 
 class TimelineCardView extends StatelessWidget {
   final PregnancyEntry entry;

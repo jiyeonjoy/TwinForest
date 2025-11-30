@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twin_forest/app/timeline/data/pregnancy_entry_data.dart';
+import 'package:twin_forest/app/timeline/data/models/pregnancy_entry.dart';
 
 class EntryDetailPage extends StatelessWidget {
   final PregnancyEntry entry;

@@ -1,3 +1,6 @@
+import 'package:twin_forest/app/timeline/data/models/symptoms.dart';
+import 'package:twin_forest/app/timeline/data/models/twin_note.dart';
+
 class PregnancyEntry {
   final int week;
   final String dayLabel; // 예: "15주 3일"
@@ -19,27 +22,5 @@ class PregnancyEntry {
     required this.twinNote,
     required this.memo,
     this.ultrasoundImagePath,
-  });
-}
-
-class Symptoms {
-  final int nausea; // 입덧 레벨 0~5
-  final int fatigue; // 피로도 0~5
-  final int mood; // 기분 0(우울)~5(행복)
-
-  const Symptoms({
-    required this.nausea,
-    required this.fatigue,
-    required this.mood,
-  });
-}
-
-class TwinNote {
-  final String tree; // 나무
-  final String fruit; // 열매
-
-  const TwinNote({
-    required this.tree,
-    required this.fruit,
   });
 }
